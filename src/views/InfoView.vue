@@ -19,7 +19,7 @@ export default{
         login_state(){
             if(localStorage.token == undefined){
                 alert('請先登入')
-                this.$router.push({path:'/login'}).catch({})
+                this.$router.push({path:'/'}).catch({})
             }
         }
     }

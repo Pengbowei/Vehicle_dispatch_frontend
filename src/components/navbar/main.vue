@@ -4,13 +4,13 @@
         <img align="left" alt="Vue logo" src="../../assets/logo.png" style="width:20px; height:20px">
 
         <div v-if="state">
-          <router-link v-on:click="logout()" to="/login">登出</router-link> |
+          <router-link v-on:click="logout()" to="/">登出</router-link> |
           <router-link to="/order">預定</router-link> | 
           <router-link to="/info">訂單</router-link>
         </div>
 
         <div v-else>
-          <router-link to="/login" >登入</router-link> |
+          <router-link to="/" >登入</router-link> |
         </div>
 
     </nav>

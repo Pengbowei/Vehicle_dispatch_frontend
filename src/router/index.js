@@ -5,7 +5,7 @@ import InfoView from '../views/InfoView.vue'
 
 const routes = [
   {
-    path: '/login',
+    path: '/',
     name: 'login',
     component: LoginView
   },
